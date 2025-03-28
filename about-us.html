@@ -5,7 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>علیرضا جعفری | طراح سایت</title>
     <link rel="stylesheet" href="css/style.css" />
-    <script src="https://kit.fontawesome.com/89068190ea.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/89068190ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      :root {
+        --white-color: #ffffff;
+        --text-color: #000000;
+        --stylish-white-color: #f6f6f3;
+        --header-color: #7886c7;
+        --footer-color: #2d336b;
+      }
+
+      a {
+        color: var(--footer-color);
+      }
+    </style>
   </head>
   <body>
     <header id="header">
@@ -28,6 +44,14 @@
           </div>
           <div>
             <nav id="nav">
+              <!-- Hamburger Icon -->
+              <button id="hamburger" class="hamburger">
+                <span>__</span>
+                <span>__</span>
+                <span>__</span>
+              </button>
+            
+              <!-- Navigation Menu -->
               <ul class="nav-menu">
                 <li class="nav-item">
                   <a href="index.html">خانه</a>
@@ -49,31 +73,54 @@
     </header>
     <main class="main">
       <div class="container">
-        <section class="about-section">
-          <h2>ما کی هستیم</h2>
-          <p>
-            ما یک تیم متشکل از افراد پرشور هستیم که به ارائه بهترین خدمات به
-            مشتریان خود متعهدیم. تخصص ما در زمینه‌های مختلف است و به کیفیت در
-            همه کارهایی که انجام می‌دهیم، متعهد هستیم.
-          </p>
-        </section>
-        <section class="mission-section">
-          <h2>ماموریت ما</h2>
-          <p>
-            ماموریت ما ارائه محصولات و خدمات با کیفیت است که فراتر از انتظارات
-            مشتریان ما باشد. ما به نوآوری و بهبود مستمر متعهد هستیم.
-          </p>
-        </section>
-        <section class="values-section">
-          <h2>ارزش‌های ما</h2>
-          <ul>
-            <li>صداقت</li>
-            <li>رضایت مشتری</li>
-            <li>نوآوری</li>
-            <li>کار تیمی</li>
-            <li>کیفیت</li>
-          </ul>
-        </section>
+        <h2>تحصیلات و دوره‌ها</h2>
+        <ul>
+          <li>دوره آموزشی C# و ASP.NET Core برای توسعه وب</li>
+          <li>یادگیری و تمرین مهارت‌های SQL برای مدیریت پایگاه‌ داده‌ها</li>
+        </ul>
+
+        <h2>مهارت‌ها</h2>
+        <ul>
+          <li>برنامه‌نویسی با C#</li>
+          <li>توسعه وب با ASP.NET Core</li>
+          <li>طراحی صفحات وب با HTML, CSS و JavaScript</li>
+          <li>کار با پایگاه داده و SQL</li>
+        </ul>
+
+        <h2>پروژه‌ها و تجربیات</h2>
+        <ul>
+          <li>
+            توسعه یک پروژه شخصی برای مدیریت داده‌های معدنی با استفاده از C# و
+            SQL
+          </li>
+        </ul>
+
+        <p>
+          در حال حاضر، به دنبال بهبود مهارت‌هایم در برنامه‌نویسی و توسعه فردی
+          هستم و مشتاق یادگیری و همکاری در پروژه‌های جدید.
+        </p>
+
+        <h3>ارتباط با من</h3>
+        <div class="contact">
+          <br />
+          <strong>ایمیل:</strong>
+          <br />
+          <a href="mailto:a.jafari.tech@gmail.com">a.jafari.tech@gmail.com</a>
+          <br />
+          <a
+            href="https://www.linkedin.com/in/alireza-jafari-tech"
+            target="_blank"
+            >پروفایل لینکدین</a
+          >
+          <br />
+          <a href="https://t.me/alireza_jafari_tech" target="_blank"
+            >پروفایل تلگرام</a
+          >
+          <br />
+          <a href="https://github.com/Alireza-Jafari-tech" target="_blank"
+            >پروفایل گیت‌هاب</a
+          >
+        </div>
       </div>
     </main>
     <footer id="footer">
@@ -92,23 +139,23 @@
           <div class="footer-column-content">
             <ul class="social-media-icons">
               <li>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/alireza-jafari-tech">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="mailto:a.jafari.tech@gmail.com">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/alireza_jafari_tech">
                   <i class="fa-brands fa-telegram"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa-brands fa-facebook"></i>
+                <a href="https://github.com/Alireza-Jafari-tech">
+                  <i class="fa-brands fa-github"></i>
                 </a>
               </li>
             </ul>
@@ -120,5 +167,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
